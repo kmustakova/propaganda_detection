@@ -47,10 +47,10 @@
 **SubTask SI**
 | Модель         | Acc | P | R | F1-score |
 | -------------- | --- | - | - | -------- |
-| BiGRU          | 89.2%   | — | — | —        |
-| RoBERTa        | —   | — | — | —        |
-| Qwen zero-shot | —   | — | — | —        |
-| Qwen + LoRA    | —   | — | — | —        |
+| BiGRU          | 89.2%   |  |  |       |
+| RoBERTa        |    |  |  |        |
+| Qwen zero-shot |    | |  |         |
+| Qwen + LoRA    |    | |  |         |
 
 **SubTask TC**
 | Модель         | micro-avg acc, f1 | macro P | macro R | macro F1-score |
