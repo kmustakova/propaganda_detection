@@ -44,19 +44,25 @@
 - Precision, recall, F1-score соответствии с метриками соревнований
 
 ## Результаты
+**SubTask SI**
+| Модель         | Acc | P | R | F1-score |
+| -------------- | --- | - | - | -------- |
+| BiGRU          | 89.2%   | — | — | —        |
+| RoBERTa        | —   | — | — | —        |
+| Qwen zero-shot | —   | — | — | —        |
+| Qwen + LoRA    | —   | — | — | —        |
 
-| Модель         | Задача | Acc | P    | R    | F1-score |
-|----------------|--------|-----|------|------|----------|
-| BiGRU          | SI     | —   | —    | —    | —        |
-| RoBERTa        | SI     | —   | —    | —    | —        |
-| Qwen zero-shot | SI     | —   | —    | —    | —        |
-| Qwen + LoRA    | SI     | —   | —    | —    | —        |
-| RoBERTa        | TC     | —   | —    | —    | —        |
-| Qwen zero-shot | TC     | —   | —    | —    | —        |
-| Qwen + LoRA    | TC     | —   | —    | —    | —        |
+**SubTask TC**
+| Модель         | micro-avg acc, f1 | macro P | macro R | macro F1-score |
+| -------------- | ----------------- | ------- | ------- | -------------- |
+| RoBERTa        | **72.7%**         | 58.3%       | **60.6%**   | 59.2%          |
+| Qwen zero-shot | 15%               | 3%          | 6%          | 3%             |
+| Qwen + LoRA    | 71.04%            | **61%**     | 59%         | 59%            |
 
-## Структура проекта
+Наше решение обходит первое место соревнования: 72.7% против 63.74% по micro F1.
+## Структура репозитория
 ```
+propaganda_detection/
 ├── notebooks/
 │ ├── SI_BiGRU.ipynb
 │ ├── SI_BERT.ipynb
