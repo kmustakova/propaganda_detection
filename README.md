@@ -66,6 +66,7 @@ propaganda_detection/
 ├── notebooks/
 │ ├── SI_BiGRU.ipynb
 │ ├── SI_BERT.ipynb
+│ ├── SI_Qwen3_235_a22_LoRA.ipynb
 │ ├── SI_Qwen_LoRA.ipynb
 │ ├── TC_BERT.ipynb
 │ └── TC_Qwen_LoRA.ipynb
