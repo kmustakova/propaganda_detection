@@ -70,17 +70,6 @@ propaganda_detection/
 │ ├── TC_BERT.ipynb
 │ └── TC_Qwen_LoRA.ipynb
 │
+├── .gitignore
 ├── README.md
-└── .gitignore
-```
-## Версии библиотек 
-```
-torch==2.10.0+cu128
-transformers==5.0.0
-peft==0.18.1
-numpy==2.0.2
-pandas==2.2.2
-scikit-learn==1.6.1
-scipy==1.16.3
-tqdm==4.67.3
-```
+└── requirements.txt
